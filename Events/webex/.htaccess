@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.webex.mpcjuet.tech/$1 [R,L]
+
+RewriteRule ^home?$ index.php
